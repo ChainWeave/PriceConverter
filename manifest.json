@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Price Converter",
+  "version": "1.0",
+  "description": "Convert prices between BTC, SATS, and USD.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
