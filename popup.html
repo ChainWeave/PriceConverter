@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    .text {
+      text-align: left;
+      margin-right: 10px;
+      flex: 1;
+    }
+
+    .input-container {
+      display: flex;
+      justify-content: flex-end;
+      flex: 1;
+    }
+
+    .input {
+      text-align: right;
+      margin-left: 10px;
+    }
+
+    #priceInput {
+      width: 121px; /* 调整输入框的宽度 */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text">Price</div>
+    <div class="input-container">
+      <input id="priceInput" type="text" class="input">
+      <button id="saveButton">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="text">SATS</div>
+    <div class="input-container">
+      <input id="satsInput" type="text" class="input">
+    </div>
+  </div>
+  <div class="container">
+    <div class="text">UDS</div>
+    <div class="input-container">
+      <input id="usdInput" type="text" class="input">
+    </div>
+  </div>
+  <div class="container">
+    <div class="text">BTC</div>
+    <div class="input-container">
+      <input id="btcInput" type="text" class="input">
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
